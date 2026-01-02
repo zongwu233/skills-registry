@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-03T00:00:00Z",
+  "last_updated": "2026-01-03T01:00:00Z",
   "skills": {
     "pdf": {
       "name": "pdf",
@@ -257,55 +257,106 @@
         "category": "science"
       }
     },
-    "security-testing": {
-      "name": "security-testing",
-      "description": "Security testing skills for penetration testing, vulnerability assessment, security auditing, and using tools like ffuf for web fuzzing and automated security scanning",
+    "sequential-thinking": {
+      "name": "sequential-thinking",
+      "description": "Advanced reasoning and step-by-step problem-solving skill. Enables Claude to break down complex problems into sequential steps, think through each stage methodically, and provide structured analytical output",
       "source": {
         "type": "github",
-        "repo": "community/claude-security-skills",
-        "url": "https://github.com/topics/claude-skills-hub",
+        "repo": "mrgoonie/claudekit-skills",
+        "url": "https://github.com/mrgoonie/claudekit-skills",
         "branch": "main",
-        "path": "security-testing"
+        "path": ".claude/skills/sequential-thinking"
       },
       "metadata": {
-        "author": "Community",
+        "author": "mrgoonie",
         "license": "MIT",
-        "tags": ["security", "penetration-testing", "vulnerability", "ffuf"],
-        "category": "security"
+        "tags": ["reasoning", "problem-solving", "analytics", "thinking"],
+        "category": "productivity"
       }
     },
-    "browser-automation": {
-      "name": "browser-automation",
-      "description": "Browser automation skills using Playwright for web testing, scraping, form filling, and browser interactions. Covers page navigation, element selection, and test automation",
+    "n8n-workflow": {
+      "name": "n8n-workflow",
+      "description": "n8n workflow automation skills. Teach Claude to build production-ready n8n workflows covering 525+ nodes and 2653+ templates. Includes integration patterns and best practices for workflow automation",
       "source": {
         "type": "github",
-        "repo": "community/claude-web-skills",
-        "url": "https://github.com/topics/claude-skills-hub",
+        "repo": "czlonkowski/n8n-skills",
+        "url": "https://github.com/czlonkowski/n8n-skills",
         "branch": "main",
-        "path": "playwright"
+        "path": "skills"
       },
       "metadata": {
-        "author": "Community",
+        "author": "czlonkowski",
         "license": "MIT",
-        "tags": ["testing", "automation", "browser", "playwright"],
-        "category": "testing"
+        "tags": ["automation", "workflow", "n8n", "integration"],
+        "category": "automation"
       }
     },
-    "d3js-visualization": {
-      "name": "d3js-visualization",
-      "description": "D3.js data visualization skills for creating interactive charts, graphs, and data-driven visualizations. Covers scales, axes, layouts, and animated transitions",
+    "hf-llm-trainer": {
+      "name": "hf-llm-trainer",
+      "description": "Hugging Face LLM training skill. Fine-tune and train open-source language models using TRL (Transformer Reinforcement Learning) on Hugging Face Jobs. Covers model training, evaluation, and deployment workflows",
       "source": {
         "type": "github",
-        "repo": "community/claude-visualization-skills",
-        "url": "https://github.com/topics/claude-skills-hub",
+        "repo": "huggingface/skills",
+        "url": "https://github.com/huggingface/skills",
         "branch": "main",
-        "path": "d3js"
+        "path": "hf-llm-trainer/skills/model-trainer"
       },
       "metadata": {
-        "author": "Community",
+        "author": "Hugging Face",
+        "license": "Apache-2.0",
+        "tags": ["machine-learning", "llm", "training", "fine-tuning", "huggingface"],
+        "category": "science"
+      }
+    },
+    "hf-dataset-creator": {
+      "name": "hf-dataset-creator",
+      "description": "Hugging Face dataset management skill. Create, configure, and manage datasets on the Hugging Face Hub. Includes tools for dataset creation, content management, and publishing",
+      "source": {
+        "type": "github",
+        "repo": "huggingface/skills",
+        "url": "https://github.com/huggingface/skills",
+        "branch": "main",
+        "path": "hf_dataset_creator"
+      },
+      "metadata": {
+        "author": "Hugging Face",
+        "license": "Apache-2.0",
+        "tags": ["machine-learning", "dataset", "huggingface", "data"],
+        "category": "science"
+      }
+    },
+    "code-documentation": {
+      "name": "code-documentation",
+      "description": "Automatic code documentation generation skill. Automatically documents all AI-generated code changes in Markdown format with real-time HTML viewer. Ensures comprehensive documentation for code changes",
+      "source": {
+        "type": "github",
+        "repo": "bear2u/my-skills",
+        "url": "https://github.com/bear2u/my-skills",
+        "branch": "master",
+        "path": "skills"
+      },
+      "metadata": {
+        "author": "bear2u",
         "license": "MIT",
-        "tags": ["visualization", "d3js", "charts", "data-viz"],
-        "category": "creative"
+        "tags": ["documentation", "code", "markdown", "generator"],
+        "category": "productivity"
+      }
+    },
+    "skill-seekers": {
+      "name": "skill-seekers",
+      "description": "Convert documentation websites into Claude Skills. Tool that transforms documentation sites into skill format for easy integration and automated skill creation from existing docs",
+      "source": {
+        "type": "github",
+        "repo": "yusufkaraaslan/Skill_Seekers",
+        "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+        "branch": "main",
+        "path": "skill_seekers"
+      },
+      "metadata": {
+        "author": "yusufkaraaslan",
+        "license": "MIT",
+        "tags": ["tools", "converter", "documentation", "automation"],
+        "category": "tools"
       }
     }
   },
@@ -318,17 +369,17 @@
     "creative": {
       "name": "Creative & Design",
       "description": "Skills for creative work, art generation, and visualization",
-      "count": 2
+      "count": 1
     },
     "development": {
       "name": "Development Tools",
       "description": "Skills for software development, architecture, and tooling",
-      "count": 3
+      "count": 4
     },
     "productivity": {
       "name": "Productivity & Workflow",
-      "description": "Skills for improving productivity, TDD, debugging, and collaboration",
-      "count": 1
+      "description": "Skills for improving productivity, reasoning, and documentation",
+      "count": 3
     },
     "business": {
       "name": "Business & Product",
@@ -341,18 +392,18 @@
       "count": 1
     },
     "science": {
-      "name": "Scientific Computing",
-      "description": "Skills for bioinformatics, cheminformatics, data analysis, and research",
-      "count": 3
+      "name": "Scientific Computing & ML",
+      "description": "Skills for bioinformatics, ML training, data analysis, and research",
+      "count": 5
     },
-    "security": {
-      "name": "Security & Testing",
-      "description": "Skills for security testing, penetration testing, and vulnerability assessment",
+    "automation": {
+      "name": "Automation & Workflow",
+      "description": "Skills for workflow automation and integration",
       "count": 1
     },
-    "testing": {
-      "name": "Quality Assurance",
-      "description": "Skills for testing, automation, and quality assurance",
+    "tools": {
+      "name": "Tools & Utilities",
+      "description": "Skills for tools, converters, and utilities",
       "count": 1
     }
   },
@@ -386,17 +437,89 @@
       "skills_count": 138
     },
     {
-      "name": "community/claude-skills-hub",
+      "name": "mrgoonie/claudekit-skills",
       "type": "github",
-      "url": "https://github.com/topics/claude-skills-hub",
-      "description": "Community skills hub on GitHub",
-      "skills_count": 150
+      "url": "https://github.com/mrgoonie/claudekit-skills",
+      "description": "Agent skills for ClaudeKit.cc marketplace",
+      "skills_count": 10
+    },
+    {
+      "name": "czlonkowski/n8n-skills",
+      "type": "github",
+      "url": "https://github.com/czlonkowski/n8n-skills",
+      "description": "n8n workflow automation skills",
+      "skills_count": 5
+    },
+    {
+      "name": "huggingface/skills",
+      "type": "github",
+      "url": "https://github.com/huggingface/skills",
+      "description": "Hugging Face ML training and dataset skills",
+      "skills_count": 5
+    },
+    {
+      "name": "bear2u/my-skills",
+      "type": "github",
+      "url": "https://github.com/bear2u/my-skills",
+      "description": "Personal collection of frequently used skills",
+      "skills_count": 3
+    },
+    {
+      "name": "yusufkaraaslan/Skill_Seekers",
+      "type": "github",
+      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "description": "Convert documentation websites to Claude Skills",
+      "skills_count": 1
+    },
+    {
+      "name": "BehiSecc/awesome-claude-skills",
+      "type": "awesome-list",
+      "url": "https://github.com/BehiSecc/awesome-claude-skills",
+      "description": "Curated list of Claude Skills and resources",
+      "skills_count": 50
+    },
+    {
+      "name": "VoltAgent/awesome-claude-skills",
+      "type": "awesome-list",
+      "url": "https://github.com/VoltAgent/awesome-claude-skills",
+      "description": "Awesome collection of Claude Skills and resources",
+      "skills_count": 40
+    },
+    {
+      "name": "travisvn/awesome-claude-skills",
+      "type": "awesome-list",
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "description": "Comprehensive awesome list for Claude Skills",
+      "skills_count": 30
+    }
+  ],
+  "awesome_lists": [
+    {
+      "name": "BehiSecc/awesome-claude-skills",
+      "url": "https://github.com/BehiSecc/awesome-claude-skills",
+      "description": "Curated collection of Claude Skills with resources"
+    },
+    {
+      "name": "VoltAgent/awesome-claude-skills",
+      "url": "https://github.com/VoltAgent/awesome-claude-skills",
+      "description": "The awesome collection of Claude Skills and resources"
+    },
+    {
+      "name": "travisvn/awesome-claude-skills",
+      "url": "https://github.com/travisvn/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools"
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "Another curated list of Claude Skills and tools"
     }
   ],
   "stats": {
-    "total_skills": 17,
-    "total_sources": 5,
+    "total_skills": 21,
+    "total_sources": 12,
     "total_categories": 9,
-    "last_sync": "2026-01-03T00:00:00Z"
+    "total_awesome_lists": 4,
+    "last_sync": "2026-01-03T01:00:00Z"
   }
 }

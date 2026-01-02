@@ -10,23 +10,43 @@ metadata, source information, and installation details.
 
 ## Statistics
 
-- **Total Skills**: 17
-- **Total Sources**: 5
-- **Last Updated**: 2026-01-03T00:00:00Z
+- **Total Skills**: 21
+- **Total Sources**: 12
+- **Last Updated**: 2026-01-03T01:00:00Z
 
 ## Quick Links
 
+- [Automation & Workflow](#automation) (1 skills)
 - [Business & Product](#business) (1 skills)
-- [Creative & Design](#creative) (2 skills)
-- [Development Tools](#development) (3 skills)
+- [Creative & Design](#creative) (1 skills)
+- [Development Tools](#development) (4 skills)
 - [Document Processing](#document) (4 skills)
 - [Operations & DevOps](#operations) (1 skills)
-- [Productivity & Workflow](#productivity) (1 skills)
-- [Scientific Computing](#science) (3 skills)
-- [Security & Testing](#security) (1 skills)
-- [Quality Assurance](#testing) (1 skills)
+- [Productivity & Workflow](#productivity) (3 skills)
+- [Scientific Computing & ML](#science) (5 skills)
+- [Tools & Utilities](#tools) (1 skills)
 
 ## Skills by Category
+
+### Automation & Workflow
+
+Skills for workflow automation and integration
+
+#### n8n-workflow
+
+**Description**: n8n workflow automation skills. Teach Claude to build production-ready n8n workflows covering 525+ nodes and 2653+ templates. Includes integration patterns and best practices for workflow automation
+
+**Source**: [GitHub](https://github.com/czlonkowski/n8n-skills)
+
+**Author**: czlonkowski
+**License**: MIT
+**Tags**: `automation, workflow, n8n, integration`
+
+**Installation**:
+
+```bash
+python scripts/install_skill.py n8n-workflow
+```
 
 ### Business & Product
 
@@ -66,22 +86,6 @@ Skills for creative work, art generation, and visualization
 
 ```bash
 python scripts/install_skill.py algorithmic-art
-```
-
-#### d3js-visualization
-
-**Description**: D3.js data visualization skills for creating interactive charts, graphs, and data-driven visualizations. Covers scales, axes, layouts, and animated transitions
-
-**Source**: [GitHub](https://github.com/topics/claude-skills-hub)
-
-**Author**: Community
-**License**: MIT
-**Tags**: `visualization, d3js, charts, data-viz`
-
-**Installation**:
-
-```bash
-python scripts/install_skill.py d3js-visualization
 ```
 
 ### Development Tools
@@ -242,7 +246,39 @@ python scripts/install_skill.py devops-engineer
 
 ### Productivity & Workflow
 
-Skills for improving productivity, TDD, debugging, and collaboration
+Skills for improving productivity, reasoning, and documentation
+
+#### code-documentation
+
+**Description**: Automatic code documentation generation skill. Automatically documents all AI-generated code changes in Markdown format with real-time HTML viewer. Ensures comprehensive documentation for code changes
+
+**Source**: [GitHub](https://github.com/bear2u/my-skills)
+
+**Author**: bear2u
+**License**: MIT
+**Tags**: `documentation, code, markdown, generator`
+
+**Installation**:
+
+```bash
+python scripts/install_skill.py code-documentation
+```
+
+#### sequential-thinking
+
+**Description**: Advanced reasoning and step-by-step problem-solving skill. Enables Claude to break down complex problems into sequential steps, think through each stage methodically, and provide structured analytical output
+
+**Source**: [GitHub](https://github.com/mrgoonie/claudekit-skills)
+
+**Author**: mrgoonie
+**License**: MIT
+**Tags**: `reasoning, problem-solving, analytics, thinking`
+
+**Installation**:
+
+```bash
+python scripts/install_skill.py sequential-thinking
+```
 
 #### superpowers
 
@@ -260,9 +296,9 @@ Skills for improving productivity, TDD, debugging, and collaboration
 python scripts/install_skill.py superpowers
 ```
 
-### Scientific Computing
+### Scientific Computing & ML
 
-Skills for bioinformatics, cheminformatics, data analysis, and research
+Skills for bioinformatics, ML training, data analysis, and research
 
 #### bioinformatics
 
@@ -312,44 +348,56 @@ python scripts/install_skill.py cheminformatics
 python scripts/install_skill.py data-analysis
 ```
 
-### Security & Testing
+#### hf-dataset-creator
 
-Skills for security testing, penetration testing, and vulnerability assessment
+**Description**: Hugging Face dataset management skill. Create, configure, and manage datasets on the Hugging Face Hub. Includes tools for dataset creation, content management, and publishing
 
-#### security-testing
+**Source**: [GitHub](https://github.com/huggingface/skills)
 
-**Description**: Security testing skills for penetration testing, vulnerability assessment, security auditing, and using tools like ffuf for web fuzzing and automated security scanning
-
-**Source**: [GitHub](https://github.com/topics/claude-skills-hub)
-
-**Author**: Community
-**License**: MIT
-**Tags**: `security, penetration-testing, vulnerability, ffuf`
+**Author**: Hugging Face
+**License**: Apache-2.0
+**Tags**: `machine-learning, dataset, huggingface, data`
 
 **Installation**:
 
 ```bash
-python scripts/install_skill.py security-testing
+python scripts/install_skill.py hf-dataset-creator
 ```
 
-### Quality Assurance
+#### hf-llm-trainer
 
-Skills for testing, automation, and quality assurance
+**Description**: Hugging Face LLM training skill. Fine-tune and train open-source language models using TRL (Transformer Reinforcement Learning) on Hugging Face Jobs. Covers model training, evaluation, and deployment workflows
 
-#### browser-automation
+**Source**: [GitHub](https://github.com/huggingface/skills)
 
-**Description**: Browser automation skills using Playwright for web testing, scraping, form filling, and browser interactions. Covers page navigation, element selection, and test automation
-
-**Source**: [GitHub](https://github.com/topics/claude-skills-hub)
-
-**Author**: Community
-**License**: MIT
-**Tags**: `testing, automation, browser, playwright`
+**Author**: Hugging Face
+**License**: Apache-2.0
+**Tags**: `machine-learning, llm, training, fine-tuning, huggingface`
 
 **Installation**:
 
 ```bash
-python scripts/install_skill.py browser-automation
+python scripts/install_skill.py hf-llm-trainer
+```
+
+### Tools & Utilities
+
+Skills for tools, converters, and utilities
+
+#### skill-seekers
+
+**Description**: Convert documentation websites into Claude Skills. Tool that transforms documentation sites into skill format for easy integration and automated skill creation from existing docs
+
+**Source**: [GitHub](https://github.com/yusufkaraaslan/Skill_Seekers)
+
+**Author**: yusufkaraaslan
+**License**: MIT
+**Tags**: `tools, converter, documentation, automation`
+
+**Installation**:
+
+```bash
+python scripts/install_skill.py skill-seekers
 ```
 
 ## Usage
@@ -390,4 +438,4 @@ For detailed information about the registry schema, see [SCHEMA.md](docs/SCHEMA.
 
 *This README is automatically generated from skills-registry.json*
 
-*Generated: 2026-01-03T00:03:01.194487*
+*Generated: 2026-01-03T00:14:08.444729*
