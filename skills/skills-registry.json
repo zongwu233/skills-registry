@@ -1,0 +1,164 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-01-02T15:30:00Z",
+  "skills": {
+    "pdf": {
+      "name": "pdf",
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and filling forms",
+      "source": {
+        "type": "github",
+        "repo": "anthropics/anthropic-skills",
+        "url": "https://github.com/anthropics/anthropic-skills",
+        "branch": "main",
+        "path": "document-skills/unknown/skills/pdf"
+      },
+      "metadata": {
+        "author": "Anthropic",
+        "license": "Proprietary",
+        "tags": ["document", "pdf", "manipulation", "forms"],
+        "category": "document"
+      }
+    },
+    "docx": {
+      "name": "docx",
+      "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction",
+      "source": {
+        "type": "github",
+        "repo": "anthropics/anthropic-skills",
+        "url": "https://github.com/anthropics/anthropic-skills",
+        "branch": "main",
+        "path": "document-skills/unknown/skills/docx"
+      },
+      "metadata": {
+        "author": "Anthropic",
+        "license": "Proprietary",
+        "tags": ["document", "docx", "word", "editing"],
+        "category": "document"
+      }
+    },
+    "pptx": {
+      "name": "pptx",
+      "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for creating new presentations, modifying content, working with layouts, or adding comments",
+      "source": {
+        "type": "github",
+        "repo": "anthropics/anthropic-skills",
+        "url": "https://github.com/anthropics/anthropic-skills",
+        "branch": "main",
+        "path": "document-skills/unknown/skills/pptx"
+      },
+      "metadata": {
+        "author": "Anthropic",
+        "license": "Proprietary",
+        "tags": ["presentation", "pptx", "powerpoint", "slides"],
+        "category": "document"
+      }
+    },
+    "xlsx": {
+      "name": "xlsx",
+      "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization",
+      "source": {
+        "type": "github",
+        "repo": "anthropics/anthropic-skills",
+        "url": "https://github.com/anthropics/anthropic-skills",
+        "branch": "main",
+        "path": "document-skills/unknown/skills/xlsx"
+      },
+      "metadata": {
+        "author": "Anthropic",
+        "license": "Proprietary",
+        "tags": ["spreadsheet", "excel", "xlsx", "data"],
+        "category": "document"
+      }
+    },
+    "algorithmic-art": {
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems",
+      "source": {
+        "type": "github",
+        "repo": "anthropics/anthropic-skills",
+        "url": "https://github.com/anthropics/anthropic-skills",
+        "branch": "main",
+        "path": "document-skills/unknown/skills/algorithmic-art"
+      },
+      "metadata": {
+        "author": "Anthropic",
+        "license": "Proprietary",
+        "tags": ["creative", "art", "generative", "p5.js", "algorithmic"],
+        "category": "creative"
+      }
+    },
+    "frontend-design": {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications",
+      "source": {
+        "type": "github",
+        "repo": "anthropics/anthropic-skills",
+        "url": "https://github.com/anthropics/anthropic-skills",
+        "branch": "main",
+        "path": "document-skills/unknown/skills/frontend-design"
+      },
+      "metadata": {
+        "author": "Anthropic",
+        "license": "Proprietary",
+        "tags": ["frontend", "web", "design", "ui", "react"],
+        "category": "development"
+      }
+    },
+    "mcp-builder": {
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools",
+      "source": {
+        "type": "github",
+        "repo": "anthropics/anthropic-skills",
+        "url": "https://github.com/anthropics/anthropic-skills",
+        "branch": "main",
+        "path": "document-skills/unknown/skills/mcp-builder"
+      },
+      "metadata": {
+        "author": "Anthropic",
+        "license": "Proprietary",
+        "tags": ["development", "mcp", "server", "api"],
+        "category": "development"
+      }
+    },
+    "skill-creator": {
+      "name": "skill-creator",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities",
+      "source": {
+        "type": "github",
+        "repo": "anthropics/anthropic-skills",
+        "url": "https://github.com/anthropics/anthropic-skills",
+        "branch": "main",
+        "path": "document-skills/unknown/skills/skill-creator"
+      },
+      "metadata": {
+        "author": "Anthropic",
+        "license": "Proprietary",
+        "tags": ["development", "skill", "authoring", "tools"],
+        "category": "development"
+      }
+    }
+  },
+  "categories": {
+    "document": {
+      "name": "Document Processing",
+      "description": "Skills for working with documents (PDF, DOCX, PPTX, XLSX)",
+      "count": 4
+    },
+    "creative": {
+      "name": "Creative & Design",
+      "description": "Skills for creative work and art generation",
+      "count": 1
+    },
+    "development": {
+      "name": "Development Tools",
+      "description": "Skills for software development and tooling",
+      "count": 3
+    }
+  },
+  "stats": {
+    "total_skills": 8,
+    "total_sources": 1,
+    "last_sync": "2026-01-02T15:30:00Z"
+  }
+}
