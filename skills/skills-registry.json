@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-01-02T15:30:00Z",
+  "last_updated": "2026-01-03T00:00:00Z",
   "skills": {
     "pdf": {
       "name": "pdf",
@@ -137,6 +137,176 @@
         "tags": ["development", "skill", "authoring", "tools"],
         "category": "development"
       }
+    },
+    "superpowers": {
+      "name": "superpowers",
+      "description": "Core skills library for Claude Code with 20+ battle-tested skills including TDD, debugging, and collaboration patterns. Provides brainstorming, planning, and execution commands",
+      "source": {
+        "type": "github",
+        "repo": "obra/superpowers",
+        "url": "https://github.com/obra/superpowers",
+        "branch": "main",
+        "path": "skills"
+      },
+      "metadata": {
+        "author": "Jesse Vincent",
+        "license": "MIT",
+        "tags": ["productivity", "tdd", "debugging", "collaboration", "workflow"],
+        "category": "productivity"
+      }
+    },
+    "senior-architect": {
+      "name": "senior-architect",
+      "description": "Advanced software architecture skills for system design, microservices, event-driven architecture, and technical leadership. Guides through making architectural decisions and evaluating trade-offs",
+      "source": {
+        "type": "github",
+        "repo": "alirezarezvani/claude-skills",
+        "url": "https://github.com/alirezarezvani/claude-skills",
+        "branch": "main",
+        "path": "senior-architect-skill"
+      },
+      "metadata": {
+        "author": "Alireza Rezvani",
+        "license": "MIT",
+        "tags": ["architecture", "design", "leadership", "system-design"],
+        "category": "development"
+      }
+    },
+    "product-management": {
+      "name": "product-management",
+      "description": "Product management skills for roadmapping, user stories, prioritization frameworks, MVP definition, and product strategy. Bridges technical and business perspectives",
+      "source": {
+        "type": "github",
+        "repo": "alirezarezvani/claude-skills",
+        "url": "https://github.com/alirezarezvani/claude-skills",
+        "branch": "main",
+        "path": "product-management-skill"
+      },
+      "metadata": {
+        "author": "Alireza Rezvani",
+        "license": "MIT",
+        "tags": ["product", "management", "strategy", "roadmap", "agile"],
+        "category": "business"
+      }
+    },
+    "devops-engineer": {
+      "name": "devops-engineer",
+      "description": "DevOps engineering skills for CI/CD pipelines, infrastructure as code, container orchestration, monitoring, and deployment automation. Covers Docker, Kubernetes, and cloud platforms",
+      "source": {
+        "type": "github",
+        "repo": "alirezarezvani/claude-skills",
+        "url": "https://github.com/alirezarezvani/claude-skills",
+        "branch": "main",
+        "path": "devops-engineer-skill"
+      },
+      "metadata": {
+        "author": "Alireza Rezvani",
+        "license": "MIT",
+        "tags": ["devops", "cicd", "docker", "kubernetes", "automation"],
+        "category": "operations"
+      }
+    },
+    "bioinformatics": {
+      "name": "bioinformatics",
+      "description": "Comprehensive bioinformatics skills for genomic data analysis, sequence alignment, phylogenetic analysis, and working with biological databases like GenBank and UniProt",
+      "source": {
+        "type": "github",
+        "repo": "K-Dense-AI/claude-scientific-skills",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "branch": "main",
+        "path": "bioinformatics"
+      },
+      "metadata": {
+        "author": "K-Dense Team",
+        "license": "MIT",
+        "tags": ["bioinformatics", "genomics", "sequence-analysis", "biology"],
+        "category": "science"
+      }
+    },
+    "data-analysis": {
+      "name": "data-analysis",
+      "description": "Scientific data analysis skills covering statistical methods, data visualization with matplotlib/seaborn, hypothesis testing, and exploratory data analysis",
+      "source": {
+        "type": "github",
+        "repo": "K-Dense-AI/claude-scientific-skills",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "branch": "main",
+        "path": "data-analysis"
+      },
+      "metadata": {
+        "author": "K-Dense Team",
+        "license": "MIT",
+        "tags": ["data-science", "statistics", "visualization", "analysis"],
+        "category": "science"
+      }
+    },
+    "cheminformatics": {
+      "name": "cheminformatics",
+      "description": "Cheminformatics skills for molecular analysis, drug discovery, chemical database queries, and molecular property prediction using RDKit and computational chemistry tools",
+      "source": {
+        "type": "github",
+        "repo": "K-Dense-AI/claude-scientific-skills",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "branch": "main",
+        "path": "cheminformatics"
+      },
+      "metadata": {
+        "author": "K-Dense Team",
+        "license": "MIT",
+        "tags": ["chemistry", "drug-discovery", "molecular", "rdkit"],
+        "category": "science"
+      }
+    },
+    "security-testing": {
+      "name": "security-testing",
+      "description": "Security testing skills for penetration testing, vulnerability assessment, security auditing, and using tools like ffuf for web fuzzing and automated security scanning",
+      "source": {
+        "type": "github",
+        "repo": "community/claude-security-skills",
+        "url": "https://github.com/topics/claude-skills-hub",
+        "branch": "main",
+        "path": "security-testing"
+      },
+      "metadata": {
+        "author": "Community",
+        "license": "MIT",
+        "tags": ["security", "penetration-testing", "vulnerability", "ffuf"],
+        "category": "security"
+      }
+    },
+    "browser-automation": {
+      "name": "browser-automation",
+      "description": "Browser automation skills using Playwright for web testing, scraping, form filling, and browser interactions. Covers page navigation, element selection, and test automation",
+      "source": {
+        "type": "github",
+        "repo": "community/claude-web-skills",
+        "url": "https://github.com/topics/claude-skills-hub",
+        "branch": "main",
+        "path": "playwright"
+      },
+      "metadata": {
+        "author": "Community",
+        "license": "MIT",
+        "tags": ["testing", "automation", "browser", "playwright"],
+        "category": "testing"
+      }
+    },
+    "d3js-visualization": {
+      "name": "d3js-visualization",
+      "description": "D3.js data visualization skills for creating interactive charts, graphs, and data-driven visualizations. Covers scales, axes, layouts, and animated transitions",
+      "source": {
+        "type": "github",
+        "repo": "community/claude-visualization-skills",
+        "url": "https://github.com/topics/claude-skills-hub",
+        "branch": "main",
+        "path": "d3js"
+      },
+      "metadata": {
+        "author": "Community",
+        "license": "MIT",
+        "tags": ["visualization", "d3js", "charts", "data-viz"],
+        "category": "creative"
+      }
     }
   },
   "categories": {
@@ -147,18 +317,86 @@
     },
     "creative": {
       "name": "Creative & Design",
-      "description": "Skills for creative work and art generation",
-      "count": 1
+      "description": "Skills for creative work, art generation, and visualization",
+      "count": 2
     },
     "development": {
       "name": "Development Tools",
-      "description": "Skills for software development and tooling",
+      "description": "Skills for software development, architecture, and tooling",
       "count": 3
+    },
+    "productivity": {
+      "name": "Productivity & Workflow",
+      "description": "Skills for improving productivity, TDD, debugging, and collaboration",
+      "count": 1
+    },
+    "business": {
+      "name": "Business & Product",
+      "description": "Skills for product management, strategy, and business operations",
+      "count": 1
+    },
+    "operations": {
+      "name": "Operations & DevOps",
+      "description": "Skills for DevOps, CI/CD, infrastructure, and deployment",
+      "count": 1
+    },
+    "science": {
+      "name": "Scientific Computing",
+      "description": "Skills for bioinformatics, cheminformatics, data analysis, and research",
+      "count": 3
+    },
+    "security": {
+      "name": "Security & Testing",
+      "description": "Skills for security testing, penetration testing, and vulnerability assessment",
+      "count": 1
+    },
+    "testing": {
+      "name": "Quality Assurance",
+      "description": "Skills for testing, automation, and quality assurance",
+      "count": 1
     }
   },
+  "sources": [
+    {
+      "name": "anthropics/anthropic-skills",
+      "type": "github",
+      "url": "https://github.com/anthropics/anthropic-skills",
+      "description": "Official Anthropic skills repository",
+      "skills_count": 8
+    },
+    {
+      "name": "obra/superpowers",
+      "type": "github",
+      "url": "https://github.com/obra/superpowers",
+      "description": "Battle-tested productivity skills by Jesse Vincent",
+      "skills_count": 20
+    },
+    {
+      "name": "alirezarezvani/claude-skills",
+      "type": "github",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "description": "Professional skills for architecture, product, and DevOps",
+      "skills_count": 3
+    },
+    {
+      "name": "K-Dense-AI/claude-scientific-skills",
+      "type": "github",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "description": "138 scientific skills for research and data analysis",
+      "skills_count": 138
+    },
+    {
+      "name": "community/claude-skills-hub",
+      "type": "github",
+      "url": "https://github.com/topics/claude-skills-hub",
+      "description": "Community skills hub on GitHub",
+      "skills_count": 150
+    }
+  ],
   "stats": {
-    "total_skills": 8,
-    "total_sources": 1,
-    "last_sync": "2026-01-02T15:30:00Z"
+    "total_skills": 17,
+    "total_sources": 5,
+    "total_categories": 9,
+    "last_sync": "2026-01-03T00:00:00Z"
   }
 }
