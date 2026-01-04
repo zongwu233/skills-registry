@@ -1,0 +1,33 @@
+# Skills Repositories Configuration
+#
+# Add GitHub repositories to scan for skills (one per line)
+# Format: owner/repo
+# Lines starting with # are comments
+#
+# Example repositories:
+
+# Official Anthropic Skills
+anthropics/skills
+
+# Productivity & Workflow
+obra/superpowers
+mrgoonie/claudekit-skills
+
+# Development & Architecture
+alirezarezvani/claude-skills
+
+# Scientific Computing
+K-Dense-AI/claude-scientific-skills
+
+# Machine Learning
+huggingface/skills
+
+# Automation
+czlonkowski/n8n-skills
+
+# Utilities
+bear2u/my-skills
+yusufkaraaslan/Skill_Seekers
+
+# Add your own repositories below:
+# username/repo-name

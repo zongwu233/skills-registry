@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-01-04T00:00:00Z",
+  "repositories": [
+    {
+      "name": "Anthropic Skills",
+      "repo": "anthropics/skills",
+      "branch": "main",
+      "enabled": true,
+      "priority": 1,
+      "description": "Official Anthropic skills repository"
+    },
+    {
+      "name": "Superpowers",
+      "repo": "obra/superpowers",
+      "branch": "main",
+      "enabled": true,
+      "priority": 2,
+      "description": "Core skills library with 20+ battle-tested skills"
+    },
+    {
+      "name": "Claude Skills",
+      "repo": "alirezarezvani/claude-skills",
+      "branch": "main",
+      "enabled": true,
+      "priority": 3,
+      "description": "Architecture, Product, and DevOps skills"
+    },
+    {
+      "name": "Scientific Skills",
+      "repo": "K-Dense-AI/claude-scientific-skills",
+      "branch": "main",
+      "enabled": true,
+      "priority": 4,
+      "description": "Bioinformatics, ML, and data analysis skills"
+    },
+    {
+      "name": "ClaudeKit Skills",
+      "repo": "mrgoonie/claudekit-skills",
+      "branch": "main",
+      "enabled": true,
+      "priority": 5,
+      "description": "Agent and reasoning skills"
+    },
+    {
+      "name": "N8N Skills",
+      "repo": "czlonkowski/n8n-skills",
+      "branch": "main",
+      "enabled": true,
+      "priority": 6,
+      "description": "Workflow automation skills"
+    },
+    {
+      "name": "Hugging Face Skills",
+      "repo": "huggingface/skills",
+      "branch": "main",
+      "enabled": true,
+      "priority": 7,
+      "description": "Machine learning and dataset skills"
+    },
+    {
+      "name": "My Skills",
+      "repo": "bear2u/my-skills",
+      "branch": "main",
+      "enabled": true,
+      "priority": 8,
+      "description": "Common utility skills"
+    },
+    {
+      "name": "Skill Seekers",
+      "repo": "yusufkaraaslan/Skill_Seekers",
+      "branch": "main",
+      "enabled": true,
+      "priority": 9,
+      "description": "Documentation converter tool"
+    }
+  ],
+  "categories": {
+    "document": {
+      "keywords": ["pdf", "docx", "pptx", "xlsx", "document", "word", "excel"],
+      "default_category": "document"
+    },
+    "development": {
+      "keywords": ["code", "api", "mcp", "development", "frontend", "backend"],
+      "default_category": "development"
+    },
+    "scientific": {
+      "keywords": ["ml", "ai", "data", "bioinformatics", "chemistry", "scientific"],
+      "default_category": "scientific"
+    },
+    "productivity": {
+      "keywords": ["workflow", "productivity", "automation", "tdd", "testing"],
+      "default_category": "productivity"
+    },
+    "creative": {
+      "keywords": ["art", "design", "creative", "generative", "algorithmic"],
+      "default_category": "creative"
+    }
+  }
+}
